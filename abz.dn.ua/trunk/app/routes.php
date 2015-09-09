@@ -15,3 +15,7 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('workers', 'HomeController@showSwitch');
+Route::get('workers-l', 'HomeController@showWorkersList');
+Route::get('workers-t', 'HomeController@showWorkersTable');

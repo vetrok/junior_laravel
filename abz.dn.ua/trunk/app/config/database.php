@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'fetch' => PDO::FETCH_CLASS,
+	'fetch' => PDO::FETCH_ASSOC,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -55,8 +55,8 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
+			'database'  => 'junior_test',
+			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
