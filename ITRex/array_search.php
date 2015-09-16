@@ -7,6 +7,7 @@
 */
 
 /**
+ * Assist function
  * Takes array, split it in two parts and searching number of elements equal to $needle
  * in left part of array and number of elements not equal $needle in right part
  *
@@ -40,7 +41,7 @@ function inArray(Array $arr, $needle, $split) {
  *
  * @return int
  */
-function mySplit($searchNum, Array $startArray) {
+function solution($searchNum, Array $startArray) {
     if (in_array($searchNum, $startArray)) {
         $arrLength = count($startArray);
         $start = 0;
@@ -76,5 +77,5 @@ $arr[11000] = 1;
 
 //Must return 100001 - 4 (1 already exists in arr[1])
 
-echo mySplit(1, $arr);
+echo solution(1, $arr);
 ?>
