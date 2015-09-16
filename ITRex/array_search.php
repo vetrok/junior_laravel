@@ -2,7 +2,7 @@
 /**
  * PHP developer test exercise
  *
- * @author Vitaliy Yatsenko <vetrok87n@gmail.com>
+ * @author Vitaliy Yatsenko <vetrok87@gmail.com>
  * @version 1.0
 */
 
